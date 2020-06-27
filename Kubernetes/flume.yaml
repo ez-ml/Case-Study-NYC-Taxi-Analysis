@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flume-ng
+  labels:
+    app: flume-ng
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: flume-ng
+      labels:
+        app: flume-ng
+    spec:
+      containers:
+        - name: flume-ng
+          resources:
+            requests:
+              cpu: 6000m
+              memory: "16Gi"
+          stdin: true
+          image: hishailesh77/flume
+          imagePullPolicy: Always
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: flume-ng
