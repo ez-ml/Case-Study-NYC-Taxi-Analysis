@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+metadata:
+  name: case-study-nyc-taxi-analysis
+build:
+  artifacts:
+  - image: hishailesh77/flume
+    context: Docker
+deploy:
+  kubectl:
+    manifests:
+    - Kubernetes/flume.yaml
