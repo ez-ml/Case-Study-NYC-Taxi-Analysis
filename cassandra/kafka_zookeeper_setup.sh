@@ -25,7 +25,7 @@ function print_servers() {
 
 function set_servers() {
     echo "$MY_ID" >> ${ZK_DATA_DIR}/myid
-    echo "dataDir=/home/zookeeper/data" >> ${KAFKA_HOME}/config/zookeeper.properties
+    echo "dataDir=${ZK_DATA_DIR}" >> ${KAFKA_HOME}/config/zookeeper.properties
     echo "clientPort=2181" >> ${KAFKA_HOME}/config/zookeeper.properties
     echo "maxClientCnxns=0" >> /${KAFKA_HOME}/config/zookeeper.properties
     echo "initLimit=5" >> ${KAFKA_HOME}/config/zookeeper.properties
