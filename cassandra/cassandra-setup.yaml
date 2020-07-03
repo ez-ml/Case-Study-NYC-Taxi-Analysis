@@ -31,7 +31,7 @@ spec:
         - name: shard
           imagePullPolicy: Always
           image: "hishailesh77/cassandra"
-          command: ["sh", "-c", "tail -f /dev/null"]
+          command: ["sh", "-c", "/app/kafka_zookeeper_setup.sh"]
           ports:
             - containerPort: 2181
           env:
