@@ -28,18 +28,22 @@ spec:
         app: kafka-zookeeper
     spec:
       containers:
-        - name: shard
+        - name: kafka-zookeeper
           imagePullPolicy: Always
           image: "hishailesh77/cassandra"
+          resources:
+            requests:
+              memory: "8Gi"
+              cpu: "4"
           command: ["sh", "-c", "/app/kafka_zookeeper_setup.sh"]
           ports:
             - containerPort: 2181
           env:
-            - name: MEHDB_DATADIR
-              value: "/mehdbdata"
+            - name: KAFKA_DATADIR
+              value: "/data/kafka"
           volumeMounts:
             - name: data
-              mountPath: /mehdbdata
+              mountPath: /data/kafka
   volumeClaimTemplates:
     - metadata:
         name: data
@@ -47,5 +51,5 @@ spec:
         accessModes: [ "ReadWriteOnce" ]
         resources:
           requests:
-            storage: 1Gi
+            storage: 80Gi
 ---
