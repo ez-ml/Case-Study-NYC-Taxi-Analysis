@@ -30,7 +30,7 @@ spec:
       containers:
         - name: kafka-zookeeper
           imagePullPolicy: Always
-          image: "hishailesh77/cassandra"
+          image: "hishailesh77/kafka-zookeeper:latest"
           resources:
             requests:
               memory: "8Gi"
@@ -53,3 +53,4 @@ spec:
           requests:
             storage: 80Gi
 ---
+

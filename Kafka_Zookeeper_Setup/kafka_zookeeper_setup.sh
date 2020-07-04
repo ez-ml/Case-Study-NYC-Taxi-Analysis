@@ -60,7 +60,7 @@ function set_servers() {
     echo "zookeeper.connection.timeout.ms=18000" >> ${KAFKA_HOME}/config/server.properties
     echo "group.initial.rebalance.delay.ms=0" >> ${KAFKA_HOME}/config/server.properties
 
-    sleep 10
+    sleep 20
     rm -rf $KAFKA_DATA/*
 
     zookeeper_cmd="${KAFKA_HOME}/bin/zookeeper-server-start.sh ${KAFKA_HOME}/config/zookeeper.properties";
