@@ -1,5 +1,14 @@
 from datetime import datetime, timedelta
+from json import dumps
 import pandas as pd
+
+def SendToKafka(url):
+    producer = KafkaProducer(bootstrap_servers=['ec2-54-244-185-158.us-west-2.compute.amazonaws.com:9092'],
+                             value_serializer=lambda x:
+                             dumps(x).encode('utf-8'))
+    for e in range(1000):
+        data = {'number' : e}
+        producer.send('sample_test_2', value=data)
 
 def read_csv_chunks(url,c_size):
     i=1

@@ -40,6 +40,7 @@ RUN conda create --name python-flume python=3.7
 #RUN conda install -n python-flume -y scikit-learn
 
 RUN /bin/bash -c ". activate python-flume && \
+    pip install kafka-python && \
     conda install pandas && \
     conda install scikit-learn"
 
