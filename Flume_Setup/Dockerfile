@@ -25,6 +25,8 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86
 RUN wget https://downloads.apache.org/flume/1.9.0/apache-flume-1.9.0-bin.tar.gz
 RUN tar -xvzf apache-flume-1.9.0-bin.tar.gz
 RUN mv apache-flume-1.9.0-bin flume
+RUN mv flume/conf/flume-env.sh.template flume/conf/flume-env.sh
+RUN echo "export JAVA_OPTS=\"-Xms2048m -Xmx12392m -XX:MaxDirectMemorySize=256m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC\"" >> flume/conf/flume-env.sh
 
 COPY populate_nyc_data.py $HOME/
 RUN mkdir $HOME/data
@@ -32,8 +34,6 @@ RUN mkdir $HOME/data
 ENV TINI_VERSION v0.16.1
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
 RUN chmod +x /usr/bin/tini
-
-
 
 RUN conda create --name python-flume python=3.7
 #RUN conda install -n python-flume -y pandas
