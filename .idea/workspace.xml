@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e2e2de7-53e9-44b5-8b88-38464714d0da" name="Default Changelist" comment="Flume Changes for Kafka Test Client">
-      <change afterPath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hive_Scripts/hive_ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hive_Scripts/hive_dml.sql" afterDir="false" />
+    <list default="true" id="7e2e2de7-53e9-44b5-8b88-38464714d0da" name="Default Changelist" comment="Hive DDL and DML">
+      <change beforePath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <workItem from="1595559078696" duration="49000" />
       <workItem from="1595559223968" duration="645000" />
       <workItem from="1595560507254" duration="460000" />
-      <workItem from="1595631009088" duration="3685000" />
+      <workItem from="1595631009088" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="Flume Changes for Conda">
       <created>1595380676373</created>
@@ -158,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595631241917</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hive DDL and DML">
+      <created>1595646740546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595646740546</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hive DDL and DML">
+      <created>1595646794290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595646794290</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flume Changes for Conda" />
     <MESSAGE value="Flume Changes for Kafka Test Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flume Changes for Kafka Test Client" />
+    <MESSAGE value="Hive DDL and DML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hive DDL and DML" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595356593915">
@@ -210,11 +223,11 @@
       <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="397" y="180" key="SettingsEditor/0.23.1792.1036@0.23.1792.1036" timestamp="1595353391248" />
-    <state x="496" y="282" key="Vcs.Push.Dialog.v2" timestamp="1595631243737">
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2" timestamp="1595646808907">
       <screen x="0" y="23" width="1792" height="1041" />
     </state>
     <state x="496" y="281" key="Vcs.Push.Dialog.v2/0.23.1792.1037@0.23.1792.1037" timestamp="1595393591354" />
-    <state x="496" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595631243737" />
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595646808907" />
     <state x="532" y="336" key="git4idea.merge.GitPullDialog" timestamp="1595381073223">
       <screen x="0" y="23" width="1792" height="1037" />
     </state>

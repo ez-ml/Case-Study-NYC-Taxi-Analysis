@@ -25,5 +25,5 @@ downloadData(){
 }
 
 
-downloadData 2009
+downloadData $1
 
