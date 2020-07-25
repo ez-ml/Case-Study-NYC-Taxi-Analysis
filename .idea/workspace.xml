@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e2e2de7-53e9-44b5-8b88-38464714d0da" name="Default Changelist" comment="Flume Changes for Kafka Test Client">
+      <change afterPath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hive_Scripts/hive_ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hive_Scripts/hive_dml.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1f0S9O80HshqDX8nNsRrGokZ7kT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Shell Script.data_transfer.sh">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Case-Study-NYC-Taxi-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/miniconda3/envs/NYC_Trips_Analysis/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_transfer.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/Hive_Scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.data_transfer.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e2e2de7-53e9-44b5-8b88-38464714d0da" name="Default Changelist" comment="" />
+      <created>1595353364933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595353364933</updated>
+      <workItem from="1595353366209" duration="10800000" />
+      <workItem from="1595559078696" duration="49000" />
+      <workItem from="1595559223968" duration="645000" />
+      <workItem from="1595560507254" duration="460000" />
+      <workItem from="1595631009088" duration="3685000" />
+    </task>
+    <task id="LOCAL-00001" summary="Flume Changes for Conda">
+      <created>1595380676373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595380676373</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Flume Changes for Conda">
+      <created>1595381053039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595381053039</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Flume Changes for Kafka Test Client">
+      <created>1595387810152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595387810152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Flume Changes for Kafka Test Client">
+      <created>1595393589925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595393589926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Flume Changes for Kafka Test Client">
+      <created>1595631116726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595631116726</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Flume Changes for Kafka Test Client">
+      <created>1595631241917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595631241917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flume Changes for Conda" />
+    <MESSAGE value="Flume Changes for Kafka Test Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flume Changes for Kafka Test Client" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595356593915">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595356593915" />
+    <state x="512" y="237" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595356568516">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="512" y="237" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595356568516" />
+    <state x="484" y="203" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1595356562800">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="484" y="203" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.23.1792.1036@0.23.1792.1036" timestamp="1595356562800" />
+    <state x="584" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595559040034">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="584" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1595559040034" />
+    <state x="180" y="116" key="DiffContextDialog" timestamp="1595387851821">
+      <screen x="0" y="23" width="1792" height="1037" />
+    </state>
+    <state x="180" y="116" key="DiffContextDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1595387851821" />
+    <state x="684" y="303" key="FileChooserDialogImpl" timestamp="1595356557500">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="684" y="303" key="FileChooserDialogImpl/0.23.1792.1036@0.23.1792.1036" timestamp="1595356557500" />
+    <state x="397" y="180" key="SettingsEditor" timestamp="1595353391248">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="397" y="180" key="SettingsEditor/0.23.1792.1036@0.23.1792.1036" timestamp="1595353391248" />
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2" timestamp="1595631243737">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="496" y="281" key="Vcs.Push.Dialog.v2/0.23.1792.1037@0.23.1792.1037" timestamp="1595393591354" />
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595631243737" />
+    <state x="532" y="336" key="git4idea.merge.GitPullDialog" timestamp="1595381073223">
+      <screen x="0" y="23" width="1792" height="1037" />
+    </state>
+    <state x="532" y="336" key="git4idea.merge.GitPullDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595353398909" />
+    <state x="532" y="336" key="git4idea.merge.GitPullDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1595381073223" />
+    <state x="264" y="226" key="new project wizard" timestamp="1595560769420">
+      <screen x="0" y="23" width="1792" height="1037" />
+    </state>
+    <state x="264" y="226" key="new project wizard/0.23.1792.1037@0.23.1792.1037" timestamp="1595560769420" />
+  </component>
+</project>
