@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e2e2de7-53e9-44b5-8b88-38464714d0da" name="Default Changelist" comment="Hive DDL and DML">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Hive_Scripts/data_transfer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hive_Scripts/hive_ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Hive_Scripts/hive_ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hive_Scripts/hive_dml.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Hive_Scripts/hive_dml.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +53,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Shell Script.data_transfer.sh">
+  <component name="RunManager" selected="Application.NycFeatureEngineering">
+    <configuration name="NycFeatureEngineering" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.feature.nyc.NycFeatureEngineering" />
+      <module name="FeatureEngineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.feature.nyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Case-Study-NYC-Taxi-Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NycFeatureEngineering" />
         <item itemvalue="Shell Script.data_transfer.sh" />
       </list>
     </recent_temporary>
@@ -112,7 +134,7 @@
       <workItem from="1595559078696" duration="49000" />
       <workItem from="1595559223968" duration="645000" />
       <workItem from="1595560507254" duration="460000" />
-      <workItem from="1595631009088" duration="3896000" />
+      <workItem from="1595631009088" duration="13638000" />
     </task>
     <task id="LOCAL-00001" summary="Flume Changes for Conda">
       <created>1595380676373</created>
@@ -170,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595646794290</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hive DDL and DML">
+      <created>1595646855276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595646855276</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,10 +228,11 @@
       <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595356593915" />
-    <state x="512" y="237" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595356568516">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state x="512" y="238" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595649070607">
+      <screen x="0" y="23" width="1792" height="1041" />
     </state>
     <state x="512" y="237" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595356568516" />
+    <state x="512" y="238" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1595649070607" />
     <state x="484" y="203" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1595356562800">
       <screen x="0" y="23" width="1792" height="1036" />
     </state>
@@ -219,23 +249,25 @@
       <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="684" y="303" key="FileChooserDialogImpl/0.23.1792.1036@0.23.1792.1036" timestamp="1595356557500" />
-    <state x="397" y="180" key="SettingsEditor" timestamp="1595353391248">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state x="397" y="181" key="SettingsEditor" timestamp="1595649139923">
+      <screen x="0" y="23" width="1792" height="1041" />
     </state>
     <state x="397" y="180" key="SettingsEditor/0.23.1792.1036@0.23.1792.1036" timestamp="1595353391248" />
-    <state x="496" y="282" key="Vcs.Push.Dialog.v2" timestamp="1595646808907">
+    <state x="397" y="181" key="SettingsEditor/0.23.1792.1041@0.23.1792.1041" timestamp="1595649139923" />
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2" timestamp="1595646857962">
       <screen x="0" y="23" width="1792" height="1041" />
     </state>
     <state x="496" y="281" key="Vcs.Push.Dialog.v2/0.23.1792.1037@0.23.1792.1037" timestamp="1595393591354" />
-    <state x="496" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595646808907" />
+    <state x="496" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595646857962" />
     <state x="532" y="336" key="git4idea.merge.GitPullDialog" timestamp="1595381073223">
       <screen x="0" y="23" width="1792" height="1037" />
     </state>
     <state x="532" y="336" key="git4idea.merge.GitPullDialog/0.23.1792.1036@0.23.1792.1036" timestamp="1595353398909" />
     <state x="532" y="336" key="git4idea.merge.GitPullDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1595381073223" />
-    <state x="264" y="226" key="new project wizard" timestamp="1595560769420">
-      <screen x="0" y="23" width="1792" height="1037" />
+    <state x="264" y="227" key="new project wizard" timestamp="1595648812832">
+      <screen x="0" y="23" width="1792" height="1041" />
     </state>
     <state x="264" y="226" key="new project wizard/0.23.1792.1037@0.23.1792.1037" timestamp="1595560769420" />
+    <state x="264" y="227" key="new project wizard/0.23.1792.1041@0.23.1792.1041" timestamp="1595648812832" />
   </component>
 </project>
