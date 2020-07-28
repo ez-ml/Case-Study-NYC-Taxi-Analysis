@@ -21,6 +21,6 @@ SET hive.exec.dynamic.partition = true;
 SET hive.enforce.bucketing = true;
 INSERT INTO TABLE NYC_TRIPS_FINAL PARTITION (year,month) SELECT *,year(to_date(Trip_Pickup_DateTime)),month(to_date(Trip_Pickup_DateTime)) FROM NYC_TRIPS_TEMP;
 
-INSERT INTO TABLE NYC_TRIPS_FINAL_2 PARTITION (year,month) SELECT *,dayofmonth(to_date(Trip_Pickup_DateTime)) as dayofmonth,year(to_date(Trip_Pickup_DateTime)),month(to_date(Trip_Pickup_DateTime)) FROM NYC_TRIPS_TEMP;
+INSERT INTO TABLE NYC_TRIPS_FINAL_1 PARTITION (year,month) SELECT *,dayofmonth(to_date(Trip_Pickup_DateTime)) as dayofmonth,year(to_date(Trip_Pickup_DateTime)),month(to_date(Trip_Pickup_DateTime)) FROM NYC_TRIPS_TEMP;
 
 
